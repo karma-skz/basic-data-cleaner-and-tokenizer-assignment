@@ -6,7 +6,7 @@ The text provided to me is an extract from the Bible.
     3) removed extra characters that might've occured due to incorrect data access while copying or so.
     4) expanded common contractions. Couldn't do it for all of the contractions present in the text as the english is really old and there are a lot of words I can't practically check them all manually as I am not familiar with them.
     5) Removed all HTML tags.
-    6) Replaced mail ids with <MAIL>, urls with <URL>, hashtags with <HASHTAG>, mentions with <MENTION>, although there were no instances in my text where this would actually be needed.
+    6) Replaced mail ids with ```<MAIL>```, urls with ```<URL>```, hashtags with `<HASHTAG>`, mentions with ```<MENTION>```, although there were no instances in my text where this would actually be needed.
     7) Changed all quotations to " "
     8) Normalised ellipses.
     9) Combined them all into 1 pipeline function called "clean_text". This can be imported and called into any other files. (Called it for cleaning data before tokenization data)
